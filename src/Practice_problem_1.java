@@ -24,6 +24,11 @@ public class Practice_problem_1{
         float celsius = scanner.nextFloat();
         float fahrenheit = (celsius * 9.0f/5.0f)+32.0f;
         System.out.printf("Fahrenheit: %.2f\n", fahrenheit);
+        //AREA OF A EQUILATERAL TRAINGLE
+        System.out.print("Arm : ");
+        float arm = scanner.nextFloat();
+        double eqArea = (Math.sqrt(3)/4.0) * Math.pow(arm,2);
+        System.out.printf("Equilateral Triangle Area: %.2f\n", eqArea);
     }
 }
 
