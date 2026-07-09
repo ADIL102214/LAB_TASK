@@ -19,7 +19,11 @@ public class Practice_problem_1{
         float circleRadius = scanner.nextFloat();
         double circleArea = 3.14 * Math.pow(circleRadius, 2);
         System.out.printf("Circle Area: %.2f\n", circleArea);
-
+        //CONVERTION OF CELCIUS TO FAHRANHEIT
+        System.out.print("Celsius : ");
+        float celsius = scanner.nextFloat();
+        float fahrenheit = (celsius * 9.0f/5.0f)+32.0f;
+        System.out.printf("Fahrenheit: %.2f\n", fahrenheit);
     }
 }
 
