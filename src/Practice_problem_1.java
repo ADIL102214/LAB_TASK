@@ -11,9 +11,15 @@ public class Practice_problem_1{
         System.out.printf("The area of the triangle is: %.2f\n", area);
         //VOLUME OF A BALL
         System.out.print("Radius : ");
-        float radius = scanner.nextFloat();
-        double volume = (4.0/3.0)*3.14*Math.pow(radius, 3);
+        float ballRadius = scanner.nextFloat();
+        double volume = (4.0/3.0)*3.14*Math.pow(ballRadius, 3);
         System.out.printf("Volume: %.2f\n", volume);
+        //AREA OF A CIRCLE
+        System.out.print("Radius : ");
+        float circleRadius = scanner.nextFloat();
+        double circleArea = 3.14 * Math.pow(circleRadius, 2);
+        System.out.printf("Circle Area: %.2f\n", circleArea);
+
     }
 }
 
