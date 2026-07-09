@@ -29,6 +29,16 @@ public class Practice_problem_1{
         float arm = scanner.nextFloat();
         double eqArea = (Math.sqrt(3)/4.0) * Math.pow(arm,2);
         System.out.printf("Equilateral Triangle Area: %.2f\n", eqArea);
+        //AREA OF A TRIANGLE(2)
+        System.out.print("a : ");
+        float a = scanner.nextFloat();
+        System.out.print("b : ");
+        float b = scanner.nextFloat();
+        System.out.print("c : ");
+        float c = scanner.nextFloat();
+        float s = (a+b+c)/2.0f;
+        double area_2 = Math.sqrt(s * (s-a) * (s-b) * (s-c));
+        System.out.printf("Heron Triangle Area: %.2f\n", area_2);
     }
 }
 
